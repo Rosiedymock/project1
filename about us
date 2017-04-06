@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+	<html>
+	 <head>
+		<title>The Monkees</title>
+    <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+	 </head>
+	<body>
+	<div id="main">
+    <div class="container">
+         <div id="header">
+    <div id="logo">
+     <img src="This Pc/documents/Monkees/logo.png">
+    </div>
+    <div id="tagline">
+        <h3>Back to the 1960's</h3>
+    </div>
+    <div style="clear:both"></div>
+    <ul id="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Our Music</a></li>
+        <li><a href="#">Book Us Now</a></li>
+    </ul>
+    <div style="clear:both"></div>
+</div>
+    <div id="content"></div>
+    <h2>About Us</h2>
+    <p>The Monkees are a four member 1960's band playing music from the rock genre. <br><br>We enjoy playing live for events and have been doing so for over 50 years! Which has given us the best experience and we hope that we give the best performances. Music has always played a huge part of all our lives, and gives us the release we need to keep our souls happy. We started our career in television but found our love to be of music and not acting, shortly after our first series ended, as a group we decided to concentrate on our music and created our first album. From there our music career took off, 50 years and thousands of gig's later we are here. The Monkees enjoy playing at events such as weddings, christmas parties, events, and festivals.</p>
+    <img src="/documents/monkees/The monkees/cover3">
+    <p1>There are four members of The Monkees, Micky Dolenz, Peter Tork, Michael Nesmith and Davy Jones. <br> Micky plays vocals, drums, moog synthesizer, and guitar. Micky is the rock of our group and often has to rally us together or keep us in check. He is the sensible one of the group, but always there to rely upon. Micky enjoys playing golf and cricket outside of the band, family is also very important to Micky. <br> Peter Tork plays keyboards, bass, piano, guitar, vocals, banjo. Peter is the little brother of the group, he likes to play pranks and keeps our spirits high at all times, he is a very positive person and a joy to be around. Peter enjoys playing Football and has a passion for photography in his spare time. Peter married at a young age and has children that have now had children of their own. <br> Michael plays guitar, vocals, keyboards. Michael is the adventurous one of the group, his favourite quote is 'He who dares wins'. Michael loves outdoor adrenaline sports and is frequently found covered in mud or wet through with a big smile on his face. <br> Davy plays vocals, tambourine, maracas, drums, bass and guitar. Davy is a very laid back character and a real charmer, he is very sociable and seems to be the talker of our group. Davy is always left behind talking to people but will go that extra mile to make sure our fans are happy. Davy is interested in IT and computers, he likes building projects and is involved from start to finish. Davy has children who have both got musical careers. </p>
+ <div id="sidebar">
+            <div id="subscribe">
+                    <h3>Subscribe!</h3>
+                    <ul>
+                        <li id="sub"><a href="#">Subscribe</a></li>
+                        <li id="email"><a href="#">Get Email Updates</a></li>
+                        <li id="Twitter"><a href="#">Follow us on Twitter</a></li>
+                        <li id="Facebook"><a href="#">Join our facebook page</a></li>
+                    </ul>
+                </div>
+                <div id="popular">
+                    <h3>Popular Items</h3>
+                    <ul>
+                        <li><a href="#">Our last event</a></li>
+                        <li><a href="#">Our next event</a></li>
+                        <li><a href="#">Book us for your event</a></li>
+                    </ul>
+                </div>
+            </div>             
+    </div>
+    <div style="clear:both"></div>
+</div>
+      <div id="footer">
+    <div class="container">
+    <h4>Thank you! Our fans are our main priority</h4>
+    <p>Many thanks for taking the time to view our website, we value your support, please keep up to date with our latest news via Facebook, Twitter youtube and our email update service. </p>
+    </div>
+    </div>
+    </body>
+    </html>
