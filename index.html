@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html ng-app='sampleApp'>
+<head>
+    <base href="/"
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>The Monkees</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+    <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css">
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="images/logo.png" class="The Monkees"></a>
+                <a class="navbar-brand" href="images/logo">The Monkees</a>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="/">Home</a></li>
+                <li><a href="/AboutUs">About Us</a></li>
+                <li><a href="/Events">Events</a></li>
+                <li><a href="/OurMusic">Our Music</a></li>
+                <li><a href="/BookUsNow">Book Us Now</a></li>
+            </ul>
+        </div>
+        </div>
+        </nav>
+        <NavCtrl>
+        <div ng-view>
+        <!-- This is our ng-view. The contents of the files in the templates directory are loaded here by Angular
+        when we click on the appropriate link. app.js decides which file is loaded. -->
+        </ng-view>
+        </div>
+        <h3>Join Us</h3>
+                    <ul>
+                        <li><a href="#">Subscribe</a></li>
+                        <li><a href="#">Get Email Updates</a></li>
+                        <li><a href="#">Follow us on Twitter</a></li>
+                    </ul>
+                </div>
+                <div id="popular">
+                    <h3>Popular Items</h3>
+                    <ul>
+                        <li><a href="#">Our last event</a></li>
+                        <li><a href="#">Our next event</a></li>
+                        <li><a href="#">Join our facebook page</a></li>
+                        <li><a href="#">Book us for your event</a></li>
+                    </ul>
+                </div>
+             <div id="footer">
+                <div class="container">
+                    <h4>Thank you! Our fans are our main priority</h4>
+                    <p>Many thanks for taking the time to view our website, we value your support, please keep up to date with our latest news via Facebook, Twitter youtube and our email update service. </p>
+                </div>
+         </div>
+
+    <script src="app.js"></script>
+    <script src="controller.js"></script>
+</body>
+
+</html>
